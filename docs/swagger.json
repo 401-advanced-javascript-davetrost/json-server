@@ -1,0 +1,62 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Disc Golf Discs API",
+    "description" : "API for Plastic Takes Flight (A Disc Golf Store)",
+    "version" : "0.2"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:3000"
+  } ],
+  "paths" : {
+    "/products" : {
+      "get" : {
+        "description" : "Route to list product info",
+        "responses" : {
+          "200" : {
+            "description" : "Product Listing",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/categories" : {
+      "get" : {
+        "description" : "Route to list product categories",
+        "responses" : {
+          "200" : {
+            "description" : "Categories Listing",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    }
+  },
+  "components" : { }
+}
