@@ -1,56 +1,78 @@
 {
-  "cats": [
+  "categories": [
     {
       "_id": 1,
-      "name": "felix",
-      "type": "tuxedo"
+      "name": "driver",
+      "display_name": "Distance Drivers",
+      "description": "The Fastest discs for distance throws"
     },
     {
       "_id": 2,
-      "name": "duchess",
-      "type": "angora"
+      "name": "fairway",
+      "display_name": "Fairway Drivers",
+      "description": "Moderately fast discs for controlled distance"
     },
     {
       "_id": 3,
-      "name": "garfield",
-      "type": "lasagna"
-    }
-  ],
-  "candies": [
-    {
-      "_id": 1,
-      "name": "Reese's Pieces",
-      "hasChocolate": true
+      "name": "mid",
+      "display_name": "Midrange Discs",
+      "description": "Low to medium speed discs for good accuracy and some distance"
     },
     {
-      "_id": 2,
-      "name": "M & M",
-      "hasChocolate": true
-    },
-    {
-      "_id": 3,
-      "name": "Snickers",
-      "hasChocolate": true
-    },
-    {
-      "name": "Skittles",
       "_id": 4,
-      "hasChocolate": false
+      "name": "putter",
+      "display_name": "Putter Discs",
+      "description": "The Lowest speed discs for maximum accuracy"
     },
     {
-      "name": "5th Avenue",
       "_id": 5,
-      "hasChocolate": true
-    },
-    {
-      "name": "Gummy Worms",
-      "_id": 6,
-      "hasChocolate": false
+      "name": "controldriver",
+      "display_name": "Distance Control (Hybrid) Drivers",
+      "description": "Long distance at high speeds with a touch more control than a pure distance driver"
     }
   ],
-  "profile": { 
-    "_id": 1,
-    "name": "Marty",
-    "favoriteCandies": [2, 4]
-  }
+  "products": [
+    {
+      "_id": 1,
+      "category": "driver",
+      "name": "destroyer",
+      "display_name": "Innova Destroyer",
+      "description": "The most famous distance driver everrrrrr"
+    },
+    {
+      "_id": 2,
+      "category": "fairway",
+      "name": "teebird",
+      "display_name": "Innova TeeBird",
+      "description": "A reliable flyer loved by pros and amateurs alike"
+    },
+    {
+      "_id": 3,
+      "category": "fairway",
+      "name": "eagle",
+      "display_name": "Innova Eagle",
+      "description": "The disc that made Gregg Barsby famous"
+    },
+    {
+      "_id": 4,
+      "category": "mid",
+      "name": "roc",
+      "display_name": "KC Pro Roc",
+      "description": "'The Champ' throws this one"
+    },
+    {
+      "_id": 6,
+      "category": "controldriver",
+      "name": "orc",
+      "display_name": "Innova Orc",
+      "description": "The best disc for the woods"
+    },
+    {
+      "_id": 7,
+      "category": "putter",
+      "name": "yetiaviar",
+      "display_name": "Yeti Pro Aviar",
+      "description": "Dave's chain-seeking putter"
+    }
+  ]
 }
