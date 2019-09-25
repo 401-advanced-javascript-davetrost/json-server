@@ -29,6 +29,12 @@
       "name": "controldriver",
       "display_name": "Distance Control (Hybrid) Drivers",
       "description": "Long distance at high speeds with a touch more control than a pure distance driver"
+    },
+    {
+      "_id": 8,
+      "name": "utility",
+      "display_name": "Utility Discs",
+      "description": "Discs with unique flight characteristics for specific situations"
     }
   ],
   "products": [
@@ -73,6 +79,13 @@
       "name": "yetiaviar",
       "display_name": "Yeti Pro Aviar",
       "description": "Dave's chain-seeking putter"
+    },
+    {
+      "_id": 8,
+      "category": "utility",
+      "name": "firebird",
+      "display_name": "Sexton Firebird",
+      "description": "Sometimes called 'the sexy bird', Nate's Firebird is an extremely reliable overstable flyer"
     }
   ]
 }

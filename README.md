@@ -19,5 +19,5 @@
 
 ## Generate Swagger Documentation
 * Swagger's Inspector tool was used to test and document the api
-* The following URL contains the information that was used to generate documentation: [Swagger Hub](https://app.swaggerhub.com/apis/DaveTrost/disc-golf-discs-api/0.2#/)
+* The following URL contains the information that was used to generate documentation: [Swagger Hub](https://app.swaggerhub.com/apis/DaveTrost/disc-golf-discs-api/0.3)
 * The file `./docs/swagger.json` contains the source info for the Swagger Docs
